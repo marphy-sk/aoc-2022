@@ -1,0 +1,17 @@
+{
+    "name": "abaffy/advent-of-code",
+    "autoload": {
+        "psr-4": {
+            "Abaffy\\AdventOfCode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marian Abaffy",
+            "email": "marian.abaffy@uniedclassifieds.sk"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^6.2"
+    }
+}
