@@ -1,13 +1,18 @@
-const testInput = `
-`
+import { part1, part2 } from './solution'
 
-describe('testing day 6', () => {
+describe('day 6', () => {
+  it('part1', () => {
+    expect(part1('bvwbjplbgvbhsrlpgdmjqwftvncz')).toBe(5);
+    expect(part1('nppdvjthqldpwncqszvftbrmjlhg')).toBe(6);
+    expect(part1('nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg')).toBe(10);
+    expect(part1('zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw')).toBe(11);
+  });
 
-  it('should return 3', () => {
-    expect(3).toBe(3)
-  })
-
-  it('should return 5', () => {
-    expect(5).toBe(5)
-  })
+  it('part1', () => {
+    expect(part1('mjqjpqmgbljsphdztnvjfqwrcgsmlb')).toBe(19);
+    expect(part1('bvwbjplbgvbhsrlpgdmjqwftvncz')).toBe(23);
+    expect(part1('nppdvjthqldpwncqszvftbrmjlhg')).toBe(23);
+    expect(part1('nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg')).toBe(29);
+    expect(part1('zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw')).toBe(26);
+  });
 })
